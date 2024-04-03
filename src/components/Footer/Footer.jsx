@@ -10,7 +10,9 @@ const Footer = () => {
           <img src={assets.logo} alt="" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-            ipsum accusamus voluptatibus voluptatem! Numquam
+            ipsum accusamus voluptatibus voluptatem! Numquam.Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Fugiat ipsum accusamus
+            voluptatibus voluptatem! Numquam
           </p>
           <div className="footer-social-icons">
             <img src={assets.facebook_icon} alt="" />
