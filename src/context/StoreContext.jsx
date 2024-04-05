@@ -19,10 +19,6 @@ const StoreContextProvider = (props) => {
   };
 
   useEffect(() => {
-    // const cartItemsFromStorage = JSON.parse(localStorage.getItem("cartItems"));
-    // if (cartItemsFromStorage) {
-    //   setCartItems(cartItemsFromStorage);
-    // }
     console.log(cartItems);
   }, [cartItems]);
 

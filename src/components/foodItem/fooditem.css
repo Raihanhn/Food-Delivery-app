@@ -48,6 +48,15 @@
   position: relative;
 }
 
+.food-item-image {
+  transition: 0.5s;
+}
+
+.food-item-image:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
 .food-item-img-container .add {
   width: 35px;
   position: absolute;
