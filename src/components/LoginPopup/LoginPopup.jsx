@@ -1,9 +1,20 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./loginpopup.css";
 import { assets } from "../../assets/assets";
 
 const LoginPopup = ({ setShowLogin }) => {
   const [currentState, setCurrentState] = useState("Login");
+
+  useEffect(() => {
+    // Disable scrolling when the modal is open
+    document.body.style.overflow = "hidden";
+
+    // Re-enable scrolling when the modal is closed
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, []);
+
   return (
     <div className="login-popup">
       <form className="login-popup-container">
