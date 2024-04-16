@@ -57,14 +57,18 @@
   position: relative;
 }
 
-.navbar-search-icon .dot {
+.cart-item-count {
   position: absolute;
-  min-width: 10px;
-  min-height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 27px;
+  min-height: 30px;
   background-color: tomato;
-  border-radius: 5px;
-  top: -8px;
-  right: -8px;
+  border-radius: 50%;
+  top: -12px;
+  right: -12px;
+  padding: 4px;
 }
 
 @media (max-width: 1050px) {
